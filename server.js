@@ -4,7 +4,7 @@ const express=require("express")
 
 const app=express();
 
-app.get("/",function(request,response){
+app.get("/",function(req,res){
   response.send("<h1>Hello world!</h1>");
 });
 
